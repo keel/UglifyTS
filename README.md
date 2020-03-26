@@ -1,9 +1,14 @@
-<p align="left">
-  <a href="https://www.npmjs.com/package/uglifyts"><img src="https://img.shields.io/npm/v/uglifyts.svg" alt="Version"></a>
-  <a href="https://github.com/domchen/uglifyts/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/uglifyts.svg" alt="License"></a>
-  <a href="https://github.com/Microsoft/Typescript"><img src="https://img.shields.io/badge/code-TypeScript-blue.svg" alt="TypeScript"></a>
-</p>
+复制于 https://github.com/domchen/UglifyTS
 
+## 使用
+在具备tsconfig.json的项目目录中执行
+```
+node /path/to/src/Program.js
+```
+即可以在当前目录中生成generated目录，其中有混淆之后的ts代码
+
+
+# ------以下为原项目说明
 ## Introduction
 
 UglifyTS is a source code obfuscation tool for TypeScript. It accepts TypeScript source files, and generates the functionally equivalent source files which are much harder to understand or reverse-engineer. This tool is usually used for source code protection.
